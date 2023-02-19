@@ -1,4 +1,2 @@
 #!/bin/bash
-FILE_NAME=$(echo "$CFILE" | cut -f 1 -d '.')
-gcc -S -masm=intel "$CFILE" -o "$FILE_NAME.s"
 cat "$FILE_NAME.s"
