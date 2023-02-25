@@ -1,6 +1,10 @@
 #include <stdio.h>
-#include <ctype.h> // This header file contains the declaration of isupper
+#include <ctype.h>
 
+/**
+ * This header file contains the declaration of isupper
+ *
+ */
 int main(void)
 {
 	char c;
