@@ -1,18 +1,5 @@
-#include <stdio.h>
-#include <ctype.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * This header file contains the declaration of isupper
- *
- */
-int main(void)
-{
-	char c;
-	
-	c = 'A';
-	printf("%c: %d\n", c, isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, isupper(c));
-	return (0);
-}
-
+int _isupper(int);
+endif
