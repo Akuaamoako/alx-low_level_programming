@@ -4,7 +4,7 @@
  * rev_string - Reverses a string
  * @s: The string to be reversed
  */
-void rev_strong(char *s)
+void rev_string(char *s)
 {
 	int len = 0, i = 0;
 	char temp;
