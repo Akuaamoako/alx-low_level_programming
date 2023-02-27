@@ -5,9 +5,9 @@
  * Return: Always 0.
  */
 int main(void)
-	char *s;
+	char *str;
 	s = "I do not fear computers. I fear the lack of them - Isaac Asimov"
-	print_rev(s);
+	print_rev(str);
 	return (0);
 	}
 
