@@ -2,9 +2,9 @@
 
 /**
  * _strlen - returns the length of a string
- * @s: the string to be measured 
+ * @s: the string to be measured
  *
- * Retuen: the length of the string
+ * Return: the length of the string
  */
 int _strlen(char *s)
 {
